@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+.box{float:left;
+		width:300px;
+		height:450px;
+		margin-right:30px;
+		border:solid 3px #CCC;}
+/*.box1{background-color:red;
+	}
+.box2{background-color:green;
+	}
+.box3{background-color:blue;
+	}*/
+.box-wrapper{width:1090px;
+			height:450px;
+			margin-top:50px;}
+.img{width:280px;
+	margin:10px;}
+.step_box{position:absolute;
+	background-color:orange;
+			width:50px;
+			height:30px;
+			color:white;}
+/* タブレット横置き(768px)程度の大きさ以下に適用される設定です */
+@media screen and (max-width:768px) {  
+  .box-wrapper{width:100%;
+  				height:1710px;
+				  margin-top:50px;
+				  margin-bottom:60px;
+				  width:100%;
+				  
+				  }
+  .box2{margin-top :20px !important;
+  	margin-bottom:20px !important;}
+	   .box{width:90%;
+	height:550px;
+	margin-left:5% !important;} 
+	   
+	   .img{width:90%;
+		}
+}
+ 
