@@ -15,14 +15,16 @@
 	}*/
 .box-wrapper{width:1090px;
 			height:450px;
-			margin-top:50px;}
+			margin:0 auto;
+		margin-top:50px;}
 .img{width:280px;
 	margin:10px;}
 .step_box{position:absolute;
 	background-color:orange;
 			width:50px;
 			height:30px;
-			color:white;}
+			color:white;
+			text-align:center;}
 /* タブレット横置き(768px)程度の大きさ以下に適用される設定です */
 @media screen and (max-width:768px) {  
   .box-wrapper{width:100%;
